@@ -141,3 +141,75 @@ export default function RegisterScreen() {
         </KeyboardAvoidingView>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
+    scrollContent: {
+        flexGrow: 1,
+    },
+    content: {
+        flex: 1,
+        justifyContent: 'center',
+        padding: 20,
+        paddingTop: 60,
+        paddingBottom: 40,
+    },
+    emoji: {
+        fontSize: 60,
+        textAlign: 'center',
+        marginBottom: 20,
+    },
+    title: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        color: '#000',
+        textAlign: 'center',
+        marginBottom: 8,
+    },
+    subtitle: {
+        fontSize: 16,
+        color: '#666',
+        textAlign: 'center',
+        marginBottom: 40,
+    },
+    input: {
+        backgroundColor: "#fff",
+        borderRadius: 8,
+        padding: 15,
+        marginBottom: 15,
+        fontSize: 16,
+        borderWidth: 1,
+        borderColor: '#ddd',
+    },
+    button: {
+        backgroundColor: '#007AFF',
+        borderRadius: 8,
+        padding: 15,
+        alignItems: 'center',
+        marginTop: 10,
+        minHeight: 50,
+        justifyContent: 'center',
+    },
+    buttonDisabled: {
+        opacity: 0.6,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    backButton: {
+        marginTop: 20,
+        alignItems: 'center',
+        padding: 10,
+    },
+    backText: {
+        color: '#007AFF',
+        fontSize: 14,
+        fontWeight: "bold",
+    },
+    
+})
